@@ -1,0 +1,3159 @@
+[
+  {
+    "id": 1,
+    "mode": "mission",
+    "title": "Первый заказ",
+    "titleEn": "First order",
+    "seed": 10100,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "score",
+        "target": 3500
+      }
+    ],
+    "obstacles": [],
+    "holes": [],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          4,
+          5
+        ],
+        "to": [
+          5,
+          5
+        ]
+      },
+      {
+        "from": [
+          0,
+          0
+        ],
+        "to": [
+          1,
+          0
+        ]
+      },
+      {
+        "from": [
+          4,
+          0
+        ],
+        "to": [
+          4,
+          1
+        ]
+      },
+      {
+        "from": [
+          4,
+          0
+        ],
+        "to": [
+          5,
+          0
+        ]
+      },
+      {
+        "from": [
+          5,
+          2
+        ],
+        "to": [
+          5,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "mode": "mission",
+    "title": "Пицца для двоих",
+    "titleEn": "Pizza for two",
+    "seed": 10200,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "collect",
+        "color": 1,
+        "target": 12
+      }
+    ],
+    "obstacles": [],
+    "holes": [],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          2,
+          6
+        ],
+        "to": [
+          3,
+          6
+        ]
+      },
+      {
+        "from": [
+          3,
+          6
+        ],
+        "to": [
+          3,
+          7
+        ]
+      },
+      {
+        "from": [
+          2,
+          1
+        ],
+        "to": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": [
+          2,
+          5
+        ],
+        "to": [
+          3,
+          5
+        ]
+      },
+      {
+        "from": [
+          6,
+          1
+        ],
+        "to": [
+          7,
+          1
+        ]
+      },
+      {
+        "from": [
+          4,
+          0
+        ],
+        "to": [
+          4,
+          1
+        ]
+      },
+      {
+        "from": [
+          5,
+          0
+        ],
+        "to": [
+          5,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "mode": "mission",
+    "title": "Лёд тронулся",
+    "titleEn": "Breaking the ice",
+    "seed": 10300,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 3
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "ice",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "ice",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "ice",
+        "hp": 1
+      }
+    ],
+    "holes": [],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          1,
+          2
+        ],
+        "to": [
+          2,
+          2
+        ]
+      },
+      {
+        "from": [
+          3,
+          2
+        ],
+        "to": [
+          4,
+          2
+        ]
+      },
+      {
+        "from": [
+          1,
+          0
+        ],
+        "to": [
+          2,
+          0
+        ]
+      },
+      {
+        "from": [
+          2,
+          3
+        ],
+        "to": [
+          3,
+          3
+        ]
+      },
+      {
+        "from": [
+          3,
+          6
+        ],
+        "to": [
+          4,
+          6
+        ]
+      },
+      {
+        "from": [
+          6,
+          1
+        ],
+        "to": [
+          7,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "mode": "mission",
+    "title": "Разбор поставки",
+    "titleEn": "Supply run",
+    "seed": 10400,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 3
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "box",
+        "hp": 1
+      }
+    ],
+    "holes": [],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          5,
+          2
+        ],
+        "to": [
+          5,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "mode": "mission",
+    "title": "Следы соуса",
+    "titleEn": "Spilled sauce",
+    "seed": 10500,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 3
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "sauce",
+        "hp": 1
+      }
+    ],
+    "holes": [],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          4,
+          2
+        ],
+        "to": [
+          4,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "mode": "mission",
+    "title": "Закрытая кухня",
+    "titleEn": "Closed kitchen",
+    "seed": 10600,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 3
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "tray",
+        "hp": 2
+      },
+      {
+        "index": 20,
+        "type": "tray",
+        "hp": 2
+      },
+      {
+        "index": 22,
+        "type": "tray",
+        "hp": 2
+      }
+    ],
+    "holes": [],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          1,
+          5
+        ],
+        "to": [
+          1,
+          6
+        ]
+      },
+      {
+        "from": [
+          1,
+          4
+        ],
+        "to": [
+          2,
+          4
+        ]
+      },
+      {
+        "from": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ]
+      },
+      {
+        "from": [
+          5,
+          4
+        ],
+        "to": [
+          5,
+          5
+        ]
+      },
+      {
+        "from": [
+          0,
+          7
+        ],
+        "to": [
+          1,
+          7
+        ]
+      },
+      {
+        "from": [
+          3,
+          0
+        ],
+        "to": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": [
+          2,
+          6
+        ],
+        "to": [
+          3,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "mode": "mission",
+    "title": "Снять цепи",
+    "titleEn": "Breaking chains",
+    "seed": 10700,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 3
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "chain",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "chain",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "chain",
+        "hp": 1
+      }
+    ],
+    "holes": [],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          1,
+          1
+        ],
+        "to": [
+          1,
+          2
+        ]
+      },
+      {
+        "from": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          3
+        ]
+      },
+      {
+        "from": [
+          1,
+          2
+        ],
+        "to": [
+          2,
+          2
+        ]
+      },
+      {
+        "from": [
+          1,
+          1
+        ],
+        "to": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "mode": "mission",
+    "title": "Доставка к утру",
+    "titleEn": "Morning delivery",
+    "seed": 10800,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "delivery",
+        "target": 1
+      }
+    ],
+    "obstacles": [],
+    "holes": [],
+    "deliveries": [
+      11
+    ],
+    "solution": [
+      {
+        "from": [
+          4,
+          0
+        ],
+        "to": [
+          5,
+          0
+        ]
+      },
+      {
+        "from": [
+          3,
+          6
+        ],
+        "to": [
+          4,
+          6
+        ]
+      },
+      {
+        "from": [
+          6,
+          6
+        ],
+        "to": [
+          7,
+          6
+        ]
+      },
+      {
+        "from": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ]
+      },
+      {
+        "from": [
+          4,
+          4
+        ],
+        "to": [
+          5,
+          4
+        ]
+      },
+      {
+        "from": [
+          4,
+          2
+        ],
+        "to": [
+          4,
+          3
+        ]
+      },
+      {
+        "from": [
+          5,
+          1
+        ],
+        "to": [
+          6,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          0
+        ],
+        "to": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": [
+          2,
+          0
+        ],
+        "to": [
+          2,
+          1
+        ]
+      },
+      {
+        "from": [
+          2,
+          0
+        ],
+        "to": [
+          3,
+          0
+        ]
+      },
+      {
+        "from": [
+          4,
+          0
+        ],
+        "to": [
+          4,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          6
+        ],
+        "to": [
+          3,
+          7
+        ]
+      },
+      {
+        "from": [
+          3,
+          3
+        ],
+        "to": [
+          4,
+          3
+        ]
+      },
+      {
+        "from": [
+          0,
+          5
+        ],
+        "to": [
+          1,
+          5
+        ]
+      },
+      {
+        "from": [
+          1,
+          3
+        ],
+        "to": [
+          1,
+          4
+        ]
+      },
+      {
+        "from": [
+          3,
+          0
+        ],
+        "to": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          0
+        ],
+        "to": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          0
+        ],
+        "to": [
+          4,
+          0
+        ]
+      },
+      {
+        "from": [
+          2,
+          0
+        ],
+        "to": [
+          3,
+          0
+        ]
+      },
+      {
+        "from": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ]
+      },
+      {
+        "from": [
+          5,
+          2
+        ],
+        "to": [
+          5,
+          3
+        ]
+      },
+      {
+        "from": [
+          3,
+          1
+        ],
+        "to": [
+          3,
+          2
+        ]
+      },
+      {
+        "from": [
+          1,
+          1
+        ],
+        "to": [
+          1,
+          2
+        ]
+      },
+      {
+        "from": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "mode": "mission",
+    "title": "Большая уборка",
+    "titleEn": "Closing cleanup",
+    "seed": 10900,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 5
+      },
+      {
+        "type": "collect",
+        "color": 2,
+        "target": 8
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "ice",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "tray",
+        "hp": 1
+      },
+      {
+        "index": 26,
+        "type": "chain",
+        "hp": 1
+      }
+    ],
+    "holes": [],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          4,
+          5
+        ],
+        "to": [
+          5,
+          5
+        ]
+      },
+      {
+        "from": [
+          6,
+          5
+        ],
+        "to": [
+          7,
+          5
+        ]
+      },
+      {
+        "from": [
+          0,
+          1
+        ],
+        "to": [
+          1,
+          1
+        ]
+      },
+      {
+        "from": [
+          2,
+          4
+        ],
+        "to": [
+          2,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "mode": "mission",
+    "title": "Последний гость",
+    "titleEn": "The last guest",
+    "seed": 11000,
+    "moves": 24,
+    "stars": [
+      6000,
+      10000
+    ],
+    "goals": [
+      {
+        "type": "score",
+        "target": 3500
+      }
+    ],
+    "obstacles": [],
+    "holes": [],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          6,
+          1
+        ],
+        "to": [
+          7,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          0
+        ],
+        "to": [
+          3,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "mode": "mission",
+    "title": "Первый заказ",
+    "titleEn": "First order",
+    "seed": 11100,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "score",
+        "target": 5300
+      }
+    ],
+    "obstacles": [],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          3,
+          2
+        ],
+        "to": [
+          4,
+          2
+        ]
+      },
+      {
+        "from": [
+          2,
+          3
+        ],
+        "to": [
+          2,
+          4
+        ]
+      },
+      {
+        "from": [
+          1,
+          2
+        ],
+        "to": [
+          2,
+          2
+        ]
+      },
+      {
+        "from": [
+          3,
+          3
+        ],
+        "to": [
+          3,
+          4
+        ]
+      },
+      {
+        "from": [
+          7,
+          3
+        ],
+        "to": [
+          7,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "mode": "mission",
+    "title": "Пицца для двоих",
+    "titleEn": "Pizza for two",
+    "seed": 11200,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "collect",
+        "color": 1,
+        "target": 16
+      }
+    ],
+    "obstacles": [],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          0,
+          3
+        ],
+        "to": [
+          1,
+          3
+        ]
+      },
+      {
+        "from": [
+          5,
+          7
+        ],
+        "to": [
+          6,
+          7
+        ]
+      },
+      {
+        "from": [
+          4,
+          0
+        ],
+        "to": [
+          4,
+          1
+        ]
+      },
+      {
+        "from": [
+          4,
+          6
+        ],
+        "to": [
+          5,
+          6
+        ]
+      },
+      {
+        "from": [
+          2,
+          1
+        ],
+        "to": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          3
+        ],
+        "to": [
+          4,
+          3
+        ]
+      },
+      {
+        "from": [
+          2,
+          4
+        ],
+        "to": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "mode": "mission",
+    "title": "Лёд тронулся",
+    "titleEn": "Breaking the ice",
+    "seed": 11300,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 4
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "ice",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "ice",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "ice",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "ice",
+        "hp": 1
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          0,
+          2
+        ],
+        "to": [
+          0,
+          3
+        ]
+      },
+      {
+        "from": [
+          0,
+          6
+        ],
+        "to": [
+          1,
+          6
+        ]
+      },
+      {
+        "from": [
+          5,
+          2
+        ],
+        "to": [
+          6,
+          2
+        ]
+      },
+      {
+        "from": [
+          3,
+          2
+        ],
+        "to": [
+          3,
+          3
+        ]
+      },
+      {
+        "from": [
+          4,
+          5
+        ],
+        "to": [
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "mode": "mission",
+    "title": "Разбор поставки",
+    "titleEn": "Supply run",
+    "seed": 11400,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 4
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "box",
+        "hp": 1
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          4,
+          3
+        ],
+        "to": [
+          4,
+          4
+        ]
+      },
+      {
+        "from": [
+          5,
+          1
+        ],
+        "to": [
+          6,
+          1
+        ]
+      },
+      {
+        "from": [
+          1,
+          3
+        ],
+        "to": [
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "mode": "mission",
+    "title": "Следы соуса",
+    "titleEn": "Spilled sauce",
+    "seed": 11500,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 4
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "sauce",
+        "hp": 1
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          6,
+          2
+        ],
+        "to": [
+          7,
+          2
+        ]
+      },
+      {
+        "from": [
+          2,
+          4
+        ],
+        "to": [
+          2,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "mode": "mission",
+    "title": "Закрытая кухня",
+    "titleEn": "Closed kitchen",
+    "seed": 11600,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 4
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "tray",
+        "hp": 2
+      },
+      {
+        "index": 20,
+        "type": "tray",
+        "hp": 2
+      },
+      {
+        "index": 22,
+        "type": "tray",
+        "hp": 2
+      },
+      {
+        "index": 24,
+        "type": "tray",
+        "hp": 2
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          2,
+          5
+        ],
+        "to": [
+          2,
+          6
+        ]
+      },
+      {
+        "from": [
+          2,
+          3
+        ],
+        "to": [
+          2,
+          4
+        ]
+      },
+      {
+        "from": [
+          1,
+          2
+        ],
+        "to": [
+          1,
+          3
+        ]
+      },
+      {
+        "from": [
+          4,
+          5
+        ],
+        "to": [
+          5,
+          5
+        ]
+      },
+      {
+        "from": [
+          6,
+          3
+        ],
+        "to": [
+          7,
+          3
+        ]
+      },
+      {
+        "from": [
+          7,
+          1
+        ],
+        "to": [
+          7,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "mode": "mission",
+    "title": "Снять цепи",
+    "titleEn": "Breaking chains",
+    "seed": 11700,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 4
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "chain",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "chain",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "chain",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "chain",
+        "hp": 1
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          3,
+          1
+        ],
+        "to": [
+          4,
+          1
+        ]
+      },
+      {
+        "from": [
+          1,
+          5
+        ],
+        "to": [
+          1,
+          6
+        ]
+      },
+      {
+        "from": [
+          2,
+          6
+        ],
+        "to": [
+          2,
+          7
+        ]
+      },
+      {
+        "from": [
+          0,
+          5
+        ],
+        "to": [
+          1,
+          5
+        ]
+      },
+      {
+        "from": [
+          2,
+          1
+        ],
+        "to": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          2
+        ],
+        "to": [
+          3,
+          3
+        ]
+      },
+      {
+        "from": [
+          0,
+          1
+        ],
+        "to": [
+          1,
+          1
+        ]
+      },
+      {
+        "from": [
+          1,
+          1
+        ],
+        "to": [
+          1,
+          2
+        ]
+      },
+      {
+        "from": [
+          2,
+          1
+        ],
+        "to": [
+          2,
+          2
+        ]
+      },
+      {
+        "from": [
+          1,
+          2
+        ],
+        "to": [
+          2,
+          2
+        ]
+      },
+      {
+        "from": [
+          2,
+          1
+        ],
+        "to": [
+          2,
+          2
+        ]
+      },
+      {
+        "from": [
+          1,
+          3
+        ],
+        "to": [
+          2,
+          3
+        ]
+      },
+      {
+        "from": [
+          1,
+          0
+        ],
+        "to": [
+          1,
+          1
+        ]
+      },
+      {
+        "from": [
+          1,
+          3
+        ],
+        "to": [
+          2,
+          3
+        ]
+      },
+      {
+        "from": [
+          2,
+          1
+        ],
+        "to": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": [
+          2,
+          2
+        ],
+        "to": [
+          2,
+          3
+        ]
+      },
+      {
+        "from": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          3
+        ]
+      },
+      {
+        "from": [
+          6,
+          3
+        ],
+        "to": [
+          7,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "mode": "mission",
+    "title": "Доставка к утру",
+    "titleEn": "Morning delivery",
+    "seed": 11802,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "delivery",
+        "target": 1
+      }
+    ],
+    "obstacles": [],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [
+      11
+    ],
+    "solution": [
+      {
+        "from": [
+          7,
+          1
+        ],
+        "to": [
+          7,
+          2
+        ]
+      },
+      {
+        "from": [
+          6,
+          6
+        ],
+        "to": [
+          7,
+          6
+        ]
+      },
+      {
+        "from": [
+          7,
+          2
+        ],
+        "to": [
+          7,
+          3
+        ]
+      },
+      {
+        "from": [
+          1,
+          4
+        ],
+        "to": [
+          2,
+          4
+        ]
+      },
+      {
+        "from": [
+          1,
+          5
+        ],
+        "to": [
+          2,
+          5
+        ]
+      },
+      {
+        "from": [
+          2,
+          6
+        ],
+        "to": [
+          3,
+          6
+        ]
+      },
+      {
+        "from": [
+          4,
+          0
+        ],
+        "to": [
+          4,
+          1
+        ]
+      },
+      {
+        "from": [
+          6,
+          0
+        ],
+        "to": [
+          6,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          1
+        ],
+        "to": [
+          4,
+          1
+        ]
+      },
+      {
+        "from": [
+          0,
+          7
+        ],
+        "to": [
+          1,
+          7
+        ]
+      },
+      {
+        "from": [
+          1,
+          2
+        ],
+        "to": [
+          2,
+          2
+        ]
+      },
+      {
+        "from": [
+          0,
+          1
+        ],
+        "to": [
+          1,
+          1
+        ]
+      },
+      {
+        "from": [
+          2,
+          1
+        ],
+        "to": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          1
+        ],
+        "to": [
+          3,
+          2
+        ]
+      },
+      {
+        "from": [
+          0,
+          2
+        ],
+        "to": [
+          1,
+          2
+        ]
+      },
+      {
+        "from": [
+          2,
+          2
+        ],
+        "to": [
+          3,
+          2
+        ]
+      },
+      {
+        "from": [
+          3,
+          2
+        ],
+        "to": [
+          4,
+          2
+        ]
+      },
+      {
+        "from": [
+          2,
+          0
+        ],
+        "to": [
+          2,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "mode": "mission",
+    "title": "Большая уборка",
+    "titleEn": "Closing cleanup",
+    "seed": 11900,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 5
+      },
+      {
+        "type": "collect",
+        "color": 2,
+        "target": 11
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "ice",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "tray",
+        "hp": 1
+      },
+      {
+        "index": 26,
+        "type": "chain",
+        "hp": 1
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          2,
+          4
+        ],
+        "to": [
+          3,
+          4
+        ]
+      },
+      {
+        "from": [
+          0,
+          5
+        ],
+        "to": [
+          1,
+          5
+        ]
+      },
+      {
+        "from": [
+          3,
+          1
+        ],
+        "to": [
+          4,
+          1
+        ]
+      },
+      {
+        "from": [
+          3,
+          2
+        ],
+        "to": [
+          3,
+          3
+        ]
+      },
+      {
+        "from": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ]
+      },
+      {
+        "from": [
+          0,
+          2
+        ],
+        "to": [
+          1,
+          2
+        ]
+      },
+      {
+        "from": [
+          1,
+          5
+        ],
+        "to": [
+          1,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "mode": "mission",
+    "title": "Последний гость",
+    "titleEn": "The last guest",
+    "seed": 12000,
+    "moves": 27,
+    "stars": [
+      8000,
+      13000
+    ],
+    "goals": [
+      {
+        "type": "score",
+        "target": 5300
+      }
+    ],
+    "obstacles": [],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          3,
+          3
+        ],
+        "to": [
+          3,
+          4
+        ]
+      },
+      {
+        "from": [
+          4,
+          2
+        ],
+        "to": [
+          5,
+          2
+        ]
+      },
+      {
+        "from": [
+          2,
+          2
+        ],
+        "to": [
+          2,
+          3
+        ]
+      },
+      {
+        "from": [
+          1,
+          6
+        ],
+        "to": [
+          2,
+          6
+        ]
+      },
+      {
+        "from": [
+          2,
+          5
+        ],
+        "to": [
+          3,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "mode": "mission",
+    "title": "Первый заказ",
+    "titleEn": "First order",
+    "seed": 12100,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "score",
+        "target": 7100
+      }
+    ],
+    "obstacles": [],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          3,
+          3
+        ],
+        "to": [
+          4,
+          3
+        ]
+      },
+      {
+        "from": [
+          5,
+          6
+        ],
+        "to": [
+          5,
+          7
+        ]
+      },
+      {
+        "from": [
+          1,
+          5
+        ],
+        "to": [
+          2,
+          5
+        ]
+      },
+      {
+        "from": [
+          0,
+          4
+        ],
+        "to": [
+          1,
+          4
+        ]
+      },
+      {
+        "from": [
+          1,
+          7
+        ],
+        "to": [
+          2,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "mode": "mission",
+    "title": "Пицца для двоих",
+    "titleEn": "Pizza for two",
+    "seed": 12200,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "collect",
+        "color": 1,
+        "target": 20
+      }
+    ],
+    "obstacles": [],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          5,
+          7
+        ],
+        "to": [
+          6,
+          7
+        ]
+      },
+      {
+        "from": [
+          2,
+          3
+        ],
+        "to": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "mode": "mission",
+    "title": "Лёд тронулся",
+    "titleEn": "Breaking the ice",
+    "seed": 12300,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 5
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "ice",
+        "hp": 2
+      },
+      {
+        "index": 20,
+        "type": "ice",
+        "hp": 2
+      },
+      {
+        "index": 22,
+        "type": "ice",
+        "hp": 2
+      },
+      {
+        "index": 24,
+        "type": "ice",
+        "hp": 2
+      },
+      {
+        "index": 26,
+        "type": "ice",
+        "hp": 2
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          6,
+          2
+        ],
+        "to": [
+          7,
+          2
+        ]
+      },
+      {
+        "from": [
+          5,
+          2
+        ],
+        "to": [
+          5,
+          3
+        ]
+      },
+      {
+        "from": [
+          1,
+          3
+        ],
+        "to": [
+          1,
+          4
+        ]
+      },
+      {
+        "from": [
+          1,
+          2
+        ],
+        "to": [
+          1,
+          3
+        ]
+      },
+      {
+        "from": [
+          0,
+          3
+        ],
+        "to": [
+          1,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "mode": "mission",
+    "title": "Разбор поставки",
+    "titleEn": "Supply run",
+    "seed": 12400,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 5
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 26,
+        "type": "box",
+        "hp": 1
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ]
+      },
+      {
+        "from": [
+          1,
+          2
+        ],
+        "to": [
+          2,
+          2
+        ]
+      },
+      {
+        "from": [
+          2,
+          2
+        ],
+        "to": [
+          3,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "mode": "mission",
+    "title": "Следы соуса",
+    "titleEn": "Spilled sauce",
+    "seed": 12500,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 5
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 26,
+        "type": "sauce",
+        "hp": 1
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          4,
+          4
+        ],
+        "to": [
+          4,
+          5
+        ]
+      },
+      {
+        "from": [
+          5,
+          3
+        ],
+        "to": [
+          6,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "mode": "mission",
+    "title": "Закрытая кухня",
+    "titleEn": "Closed kitchen",
+    "seed": 12600,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 5
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "tray",
+        "hp": 2
+      },
+      {
+        "index": 20,
+        "type": "tray",
+        "hp": 2
+      },
+      {
+        "index": 22,
+        "type": "tray",
+        "hp": 2
+      },
+      {
+        "index": 24,
+        "type": "tray",
+        "hp": 2
+      },
+      {
+        "index": 26,
+        "type": "tray",
+        "hp": 2
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          5,
+          1
+        ],
+        "to": [
+          5,
+          2
+        ]
+      },
+      {
+        "from": [
+          6,
+          5
+        ],
+        "to": [
+          7,
+          5
+        ]
+      },
+      {
+        "from": [
+          3,
+          4
+        ],
+        "to": [
+          4,
+          4
+        ]
+      },
+      {
+        "from": [
+          7,
+          3
+        ],
+        "to": [
+          7,
+          4
+        ]
+      },
+      {
+        "from": [
+          6,
+          4
+        ],
+        "to": [
+          6,
+          5
+        ]
+      },
+      {
+        "from": [
+          5,
+          5
+        ],
+        "to": [
+          5,
+          6
+        ]
+      },
+      {
+        "from": [
+          2,
+          3
+        ],
+        "to": [
+          3,
+          3
+        ]
+      },
+      {
+        "from": [
+          2,
+          2
+        ],
+        "to": [
+          3,
+          2
+        ]
+      },
+      {
+        "from": [
+          4,
+          1
+        ],
+        "to": [
+          4,
+          2
+        ]
+      },
+      {
+        "from": [
+          6,
+          6
+        ],
+        "to": [
+          6,
+          7
+        ]
+      },
+      {
+        "from": [
+          6,
+          2
+        ],
+        "to": [
+          7,
+          2
+        ]
+      },
+      {
+        "from": [
+          5,
+          3
+        ],
+        "to": [
+          5,
+          4
+        ]
+      },
+      {
+        "from": [
+          7,
+          4
+        ],
+        "to": [
+          7,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "mode": "mission",
+    "title": "Снять цепи",
+    "titleEn": "Breaking chains",
+    "seed": 12700,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 5
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "chain",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "chain",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "chain",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "chain",
+        "hp": 1
+      },
+      {
+        "index": 26,
+        "type": "chain",
+        "hp": 1
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          0,
+          5
+        ],
+        "to": [
+          1,
+          5
+        ]
+      },
+      {
+        "from": [
+          1,
+          4
+        ],
+        "to": [
+          1,
+          5
+        ]
+      },
+      {
+        "from": [
+          2,
+          4
+        ],
+        "to": [
+          3,
+          4
+        ]
+      },
+      {
+        "from": [
+          2,
+          5
+        ],
+        "to": [
+          2,
+          6
+        ]
+      },
+      {
+        "from": [
+          3,
+          7
+        ],
+        "to": [
+          4,
+          7
+        ]
+      },
+      {
+        "from": [
+          2,
+          1
+        ],
+        "to": [
+          3,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "mode": "mission",
+    "title": "Доставка к утру",
+    "titleEn": "Morning delivery",
+    "seed": 12800,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "delivery",
+        "target": 1
+      }
+    ],
+    "obstacles": [],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [
+      11
+    ],
+    "solution": [
+      {
+        "from": [
+          5,
+          4
+        ],
+        "to": [
+          5,
+          5
+        ]
+      },
+      {
+        "from": [
+          4,
+          3
+        ],
+        "to": [
+          4,
+          4
+        ]
+      },
+      {
+        "from": [
+          2,
+          2
+        ],
+        "to": [
+          2,
+          3
+        ]
+      },
+      {
+        "from": [
+          0,
+          4
+        ],
+        "to": [
+          1,
+          4
+        ]
+      },
+      {
+        "from": [
+          1,
+          5
+        ],
+        "to": [
+          2,
+          5
+        ]
+      },
+      {
+        "from": [
+          6,
+          4
+        ],
+        "to": [
+          7,
+          4
+        ]
+      },
+      {
+        "from": [
+          1,
+          3
+        ],
+        "to": [
+          2,
+          3
+        ]
+      },
+      {
+        "from": [
+          6,
+          6
+        ],
+        "to": [
+          7,
+          6
+        ]
+      },
+      {
+        "from": [
+          1,
+          6
+        ],
+        "to": [
+          1,
+          7
+        ]
+      },
+      {
+        "from": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          3
+        ]
+      },
+      {
+        "from": [
+          2,
+          4
+        ],
+        "to": [
+          2,
+          5
+        ]
+      },
+      {
+        "from": [
+          3,
+          7
+        ],
+        "to": [
+          4,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "mode": "mission",
+    "title": "Большая уборка",
+    "titleEn": "Closing cleanup",
+    "seed": 12900,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "obstacles",
+        "target": 5
+      },
+      {
+        "type": "collect",
+        "color": 2,
+        "target": 14
+      }
+    ],
+    "obstacles": [
+      {
+        "index": 18,
+        "type": "ice",
+        "hp": 1
+      },
+      {
+        "index": 20,
+        "type": "box",
+        "hp": 1
+      },
+      {
+        "index": 22,
+        "type": "sauce",
+        "hp": 1
+      },
+      {
+        "index": 24,
+        "type": "tray",
+        "hp": 1
+      },
+      {
+        "index": 26,
+        "type": "chain",
+        "hp": 1
+      }
+    ],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          1,
+          4
+        ],
+        "to": [
+          2,
+          4
+        ]
+      },
+      {
+        "from": [
+          3,
+          3
+        ],
+        "to": [
+          4,
+          3
+        ]
+      },
+      {
+        "from": [
+          6,
+          3
+        ],
+        "to": [
+          7,
+          3
+        ]
+      },
+      {
+        "from": [
+          2,
+          4
+        ],
+        "to": [
+          3,
+          4
+        ]
+      },
+      {
+        "from": [
+          4,
+          6
+        ],
+        "to": [
+          5,
+          6
+        ]
+      },
+      {
+        "from": [
+          2,
+          3
+        ],
+        "to": [
+          3,
+          3
+        ]
+      },
+      {
+        "from": [
+          0,
+          2
+        ],
+        "to": [
+          1,
+          2
+        ]
+      },
+      {
+        "from": [
+          0,
+          3
+        ],
+        "to": [
+          0,
+          4
+        ]
+      },
+      {
+        "from": [
+          5,
+          2
+        ],
+        "to": [
+          6,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "mode": "mission",
+    "title": "Последний гость",
+    "titleEn": "The last guest",
+    "seed": 13000,
+    "moves": 30,
+    "stars": [
+      10000,
+      16000
+    ],
+    "goals": [
+      {
+        "type": "score",
+        "target": 7100
+      }
+    ],
+    "obstacles": [],
+    "holes": [
+      0,
+      7
+    ],
+    "deliveries": [],
+    "solution": [
+      {
+        "from": [
+          5,
+          5
+        ],
+        "to": [
+          6,
+          5
+        ]
+      },
+      {
+        "from": [
+          1,
+          1
+        ],
+        "to": [
+          1,
+          2
+        ]
+      },
+      {
+        "from": [
+          4,
+          4
+        ],
+        "to": [
+          4,
+          5
+        ]
+      },
+      {
+        "from": [
+          2,
+          3
+        ],
+        "to": [
+          2,
+          4
+        ]
+      },
+      {
+        "from": [
+          6,
+          3
+        ],
+        "to": [
+          6,
+          4
+        ]
+      }
+    ]
+  }
+]

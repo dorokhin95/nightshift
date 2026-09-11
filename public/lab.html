@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101827"><meta name="description" content="Последний Заказ — стенд спецэлементов Match-3: ракеты, бомбы, молнии и комбинации.">
+<title>Последний Заказ · Мастерская Риты</title><link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+<header><a class="brand" href="./">ПОСЛЕДНИЙ<span>ЗАКАЗ<span class="dot">✦</span></span></a><div class="edition">МАСТЕРСКАЯ РИТЫ <b>MVP–2</b></div></header>
+<section class="intro"><div><p class="eyebrow">НЕОН-СИТИ / ПОСЛЕ ПОЛУНОЧИ</p><h1>Собери. Запусти. Зажги.</h1></div><p>Четыре в ряд — ракета.<br>Пять — маленькая катастрофа.</p></section>
+<div class="workspace">
+<section class="play" aria-label="Игровое поле">
+<div class="hud"><div><span>СЧЁТ</span><strong id="score">0</strong></div><div><span>ХОДЫ</span><strong id="moves">0</strong></div><div><span>СОЗДАНО</span><strong id="specials">0</strong></div></div>
+<div class="board-wrap"><canvas id="board" tabindex="0" role="application" aria-label="Поле три в ряд. Стрелки выбирают клетку, пробел выбирает фишку, затем стрелка и Enter меняют соседние фишки."></canvas></div>
+<p id="status" role="status" aria-live="polite">Загружаем мастерскую…</p>
+<div class="play-actions"><button id="hint" disabled>Показать ход</button><button id="restart" disabled>Повторить поле ↻</button></div>
+<p class="controls">Две соседние фишки: нажми по очереди или проведи пальцем. На клавиатуре: стрелки, пробел, Enter.</p>
+</section>
+<aside>
+<div class="scenario-panel"><span class="eyebrow">01 / ПОПРОБУЙ КОМБИНАЦИЮ</span><h2>Рита, покажи как</h2>
+<label for="scenario">Сценарий</label><select id="scenario" disabled><option value="free">Обычное поле</option></select>
+<p id="description">Меняй соседние фишки и собирай одинаковые предметы.</p>
+<button id="demonstrate" class="primary" disabled>Выполнить показанный ход ↗</button>
+</div>
+<div class="legend"><span class="eyebrow">02 / АРСЕНАЛ СМЕНЫ</span>
+<div><b class="symbol mint">↔</b><p><strong>Ракета</strong><span>4 в ряд → целая строка или столбец</span></p></div>
+<div><b class="symbol peach">●</b><p><strong>Бомба</strong><span>T или L → взрыв радиусом 2 клетки</span></p></div>
+<div><b class="symbol gold">ϟ</b><p><strong>Молния</strong><span>5 в ряд → все предметы одного типа</span></p></div>
+</div>
+<div class="preferences"><label><input id="sound" type="checkbox" checked> Звук</label><label><input id="reduced" type="checkbox"> Меньше движения</label><label class="volume" for="volume">Громкость <input id="volume" type="range" min="0" max="100" value="30"></label></div>
+<p class="stage-note">Стенд второго этапа. Меню, миссии и сохранение прогресса появятся позже. Можно играть без лимита ходов, но партия пока не сохраняется.</p>
+</aside>
+</div>
+<footer><span>ЕЩЁ ОДНА КОМБИНАЦИЯ — И ЗАКРЫВАЕМСЯ.</span><span>NightShift / 0.2.0</span></footer>
+</main>
+<script type="module" src="./demo/main.js"></script>
+</body></html>

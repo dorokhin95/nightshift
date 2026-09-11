@@ -1,0 +1,34 @@
+{
+  "name": "nightshift-game-core",
+  "version": "0.10.0-rc.1",
+  "private": true,
+  "type": "module",
+  "description": "NightShift release candidate: campaign, puzzles, progress, PWA and ranking backend",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/game/core/index.d.ts",
+      "import": "./dist/game/core/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "npm run build && node scripts/serve.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src tests scripts",
+    "test": "npm run build && node --test tests/unit/*.test.mjs tests/campaign/*.test.mjs",
+    "build": "tsc && node scripts/build-demo.mjs && node scripts/build-pwa.mjs",
+    "check": "npm run typecheck && npm run lint && npm test && npm run build && node scripts/verify-dist.mjs",
+    "demo": "npm run build && node scripts/demo.mjs",
+    "start": "node scripts/serve.mjs",
+    "fixtures": "npm run build && node scripts/make-fixtures.mjs && node scripts/build-demo.mjs",
+    "backend": "node --env-file=backend/.env backend/server.mjs",
+    "levels": "npm run build && node scripts/make-campaign.mjs && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "eslint": "9.39.4",
+    "typescript-eslint": "8.59.3"
+  }
+}
